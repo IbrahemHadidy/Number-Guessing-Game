@@ -24,7 +24,7 @@ else
   echo -e "\nWelcome, $username! It looks like this is your first time here."
 fi
 
-secret_number=$((1 + RANDOM % 10))
+secret_number=$((1 + RANDOM % 1000))
 number_of_guesses=0
 guessed=0
 
